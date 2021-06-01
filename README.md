@@ -1,12 +1,11 @@
-<img width="280" src="https://i.qpix.com/2021/06/01/A7fj.png" alt="logo" data-canonical-src="http://code.xiaoyou66.com/img/study.png" style="max-width:100%;">
+<p align="center"><img width="280" src="https://i.qpix.com/2021/06/01/A7fj.png" alt="logo" data-canonical-src="http://code.xiaoyou66.com/img/study.png" style="max-width:100%;">
+</p>
+<p align="center"><img src="https://img.shields.io/badge/license-MIT-blue"/> <img src="https://img.shields.io/badge/version-1.0.0-brightgreen"/> <img src="https://camo.githubusercontent.com/70c1e327c80ff25fe0b246a4cae705c41e26bb864acf42451276b038b0808582/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d6573362d6566643831643f6c6f676f3d4a617661536372697074266c6f676f436f6c6f723d656664383164">
+</p>
+<h1 align="center">  个人的软件工程作业：纯前端微信小程序实现四则运算
+</h1>
 
-<img src="https://img.shields.io/badge/license-MIT-blue"/><img src="https://img.shields.io/badge/version-1.0.0-brightgreen"/><img src="https://img.shields.io/badge/status-stop%20development-red">
-
-### 个人的软件工程作业：纯前端微信小程序实现四则运算
-
-****
-
-##### 📕老师要求
+#### 📕老师要求
 
 ****
 
@@ -14,7 +13,7 @@
 
 由于能力有限，本人并未完成所有老师所提出的需求(lll￢ω￢)
 
-##### 🍗实现功能
+#### 🍗实现功能
 
 ****
 
@@ -23,7 +22,7 @@
 - 记录做题结果；
 - 国际化，支持中文和英文
 
-##### 😭缺陷
+#### 😭缺陷
 
 ****
 
@@ -31,13 +30,13 @@
 - 整数除法采用除以被除数的因子保证结果为==整数==，所以可能有 `79÷1÷1÷1`的式子
 - i18n 未完全覆盖所有界面，我忘记了(●∀●)
 
-##### 🎈技术栈
+#### 🎈技术栈
 
 ****
 
 - 小程序:[vant-weapp](https://github.com/youzan/vant-weapp)/微信小程序
 
-##### 界面预览🖊
+#### 界面预览🖊
 
 ****
 
@@ -46,7 +45,7 @@
 
 
 
-##### 🐟界面路径说明
+#### 🐟界面路径说明
 
 ****
 
@@ -64,7 +63,14 @@
 >
 > ],
 
-📧联系
+#### 🧩使用说明
+
+****
+
+1. clone本仓库到本地
+> git clone https://github.com/mizuhokaga/MathExercise-Wechat-Miniprogram.git
+2. 导入到微信开发者工具
+#### 📧联系
 
 ****
 
