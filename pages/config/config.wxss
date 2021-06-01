@@ -1,0 +1,26 @@
+.hr_font {
+  width: 100%;
+  height: 40px;
+  padding-left: 40rpx;
+  padding-top: 40rpx;
+  background-color: #f4f5f6;
+}
+.hr {
+  width: 100%;
+  height: 40px;
+
+  background-color: #f4f5f6;
+}
+.hrwhite{
+  background-color: #fff;
+}
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+.titleFont{
+  color: rgba(69, 90, 100, 0.6);
+  font-size: 14px;
+}
+
+

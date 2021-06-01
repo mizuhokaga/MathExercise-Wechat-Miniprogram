@@ -1,0 +1,23 @@
+<!--index.wxml-->
+
+<view class='container'>
+  <view class='motto'>{{languagePackage.lang.index.motto}}</view>
+  <image src="/image/symbol.png" class="no-image"></image>
+  <text class="title">{{languagePackage.lang.index.tip_text}}：</text>
+  <view>
+
+    <form bindsubmit='into_questions'>
+      <input type='number' name='num' maxlength="4" placeholder="{{languagePackage.lang.index.tip_input}}" style='box-shadow: 0 0 2px #00B26A'>
+      </input>
+  
+      <van-button form-type='submit' round type="primary" block>{{languagePackage.lang.index.button}}</van-button>
+    </form>
+  </view>
+      
+ 
+</view>
+<van-toast id="van-toast" />
+
+<!-- <button  type="primary" bindtap="ToDraw">画画</button>
+<canvas canvas-id='share'style='width:100%;' >
+</canvas> -->

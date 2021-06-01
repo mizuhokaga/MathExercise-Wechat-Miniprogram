@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/config/config",
+    "pages/index/index",
+  
+    "pages/questions/questions",
+    "pages/result/result",
+    "pages/log/log"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00B26A",
+    "navigationBarTitleText": "四则运算 ver 1.5",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/image/icon_homework.png",
+        "selectedIconPath": "/image/icon_homework_HL.png",
+        "text": "答题"
+      },
+      {
+        "pagePath": "pages/log/log",
+        "iconPath": "/image/icon_API.png",
+        "selectedIconPath": "/image/icon_API_HL.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/config/config",
+        "iconPath": "/image/config.png",
+        "selectedIconPath": "/image/config_HL.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {}
+}

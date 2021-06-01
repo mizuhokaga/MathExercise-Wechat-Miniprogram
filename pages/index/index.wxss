@@ -1,0 +1,16 @@
+/**index.wxss**/
+.title{
+  margin-bottom: 35rpx;
+}
+.motto{
+  margin-bottom: 80rpx;
+  font-size: 20rpx;
+}
+.van-button--primary{
+  margin-top: 50rpx;
+}
+.no-image{
+  width: 440rpx;
+  height: 309rpx;
+  margin-bottom: 40rpx;
+}

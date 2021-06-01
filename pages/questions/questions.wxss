@@ -1,0 +1,21 @@
+/* pages/questions.wxss */
+.page {
+  padding: 30rpx;
+  
+}
+.page_bd {
+  padding: 20rpx;
+}
+
+.ans_wrap{
+  margin-top: 20rpx;
+}
+/* .toSubmit {
+  margin-top: 120rpx;
+} */
+.van-button--primary{
+  margin-top: 100rpx;
+}
+.expression{
+  margin-top: 20rpx;
+}

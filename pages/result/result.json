@@ -1,0 +1,7 @@
+{
+ 
+  "navigationBarTitleText": "得分情况",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  }
+}

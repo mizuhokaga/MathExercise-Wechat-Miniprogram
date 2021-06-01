@@ -1,0 +1,46 @@
+<view class=".hr_font titleFont">{{languagePackage.lang.config.levelConfig}}</view>
+<view class="level_config" catchtouchmove="ture">
+  <van-cell-group>
+    <van-cell>
+      <van-field type="number" value="{{ oprNum }}" required label="{{languagePackage.lang.config.operatorNum}}"
+        length="2" placeholder="在此输入" right-icon="info-o" bind:click-icon="onClickIcon"
+        error-message="{{languagePackage.lang.config.tip_opr}}" bind:input="onInputOprNum" border="{{ false }}" />
+    </van-cell>
+    <van-cell>
+      <van-field type="number" value="{{ maxRange }}" required label="{{languagePackage.lang.config.MaximumOperand}}"
+        length="3" placeholder="在此输入" error-message="{{languagePackage.lang.config.tip_max}}" bind:input="onInputMaxNum"
+        border="{{ false }}" />
+    </van-cell>
+    <van-cell icon='bar-chart-o' title="{{languagePackage.lang.config.curLevel}}" value="{{curAciton}}">
+
+    </van-cell>
+    <van-cell icon="filter-o" title="{{languagePackage.lang.config.preLevle}}" is-link bindtap="showActionSheet">
+    </van-cell>
+  </van-cell-group>
+
+</view>
+
+<view class=" .hr_font titleFont">{{languagePackage.lang.config.otherConfig}}
+</view>
+<view class="other_config">
+  <van-cell-group>
+    <van-cell value="" icon="font-o" center bindtap="switchLanguage">
+      <view slot="title">
+        <view class="van-cell-text">{{languagePackage.lang.config.LanguageConfig}}</view>
+        <van-count-down time="{{ time }}" bind:finish="finished" />
+      </view>
+      <view slot="extra">
+        {{languagePackage.lang.config.Language}}
+      </view>
+    </van-cell>
+    <van-cell icon='star-o' title="{{languagePackage.lang.config.supportSymbol}}" value="{{oprStack}}" bindtap="onShowOpr">
+
+    </van-cell>
+
+  </van-cell-group>
+
+</view>
+<van-action-sheet description="{{languagePackage.lang.config.fastChooese}}" cancel-text='取消' bind:cancel="onClose" show="{{ show }}" actions="{{actions }}"
+  bind:close="onClose" bind:select="onSelect" />
+<van-toast id="van-toast" />
+<van-dialog id="van-dialog" />

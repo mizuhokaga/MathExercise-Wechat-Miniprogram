@@ -1,0 +1,30 @@
+<!--pages/questions.wxml-->
+<van-notice-bar  speed="20" color="#1989fa" background="#ecf9ff" left-icon="info-o"
+  text="{{languagePackage.lang.questions.scrollBar}}" />
+<view class="page">
+  <van-cell value="" icon="medal-o" center>
+    <view slot="title">
+      <view class="van-cell-text">{{languagePackage.lang.questions.examinationTime}}</view>
+      <van-count-down time="{{ time }}" bind:finish="finished" />
+    </view>
+    <view slot="extra">
+      <van-switch active-color="#07C160" checked="{{ checked }}" bind:change="onChange" />
+    </view>
+  </van-cell>
+  <!-- 问题与回答 -->
+  <view class="ans_wrap">
+    <view wx:for="{{expressionList}}" wx:key='key'>
+      <view class="expression">{{index+1}}、{{item}}=?</view>
+      <input type='number' data-id='{{index}}' bindinput='checkTrueOrFalse' adjust-position='true' maxlength="5"
+        placeholder="{{languagePackage.lang.questions.tip_input}} " style='border-bottom: 1rpx solid black;'></input>
+    </view>
+    <van-button bindtap="onSumbit" round type="primary" block>{{languagePackage.lang.questions.button}}</van-button>
+  </view>
+  <!-- <button bindtap="onSumbit" type="primary" class="toSubmit">提交</button> -->
+
+  <view wx:if="{{checked}}">
+    <text>anwser</text>
+    <view wx:for="{{anwserList}}" wx:key='key'>{{index+1}}、{{item}}</view>
+  </view>
+</view>
+<van-toast id="van-toast" />
