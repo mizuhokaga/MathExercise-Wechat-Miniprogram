@@ -10,6 +10,7 @@
 ****
 
 来自https://www.cnblogs.com/xinz/p/7417960.html
+参考https://github.com/mizuhokaga/MathExercise
 
 由于能力有限，本人并未完成所有老师所提出的需求(lll￢ω￢)
 
