@@ -41,7 +41,7 @@
 
 ****
 
-| [![A7fN.md.jpg](https://i.qpix.com/2021/06/01/A7fN.md.jpg)](https://qpix.com/i/A7fN) | [![A7fH.md.jpg](https://i.qpix.com/2021/06/01/A7fH.md.jpg)](https://qpix.com/i/A7fH) | [![A7fR.md.jpg](https://i.qpix.com/2021/06/01/A7fR.md.jpg)](https://qpix.com/i/A7fR) |
+| [![ui.jpg](https://github.com/mizuhokaga/MathExercise-Wechat-Miniprogram/blob/main/Screenshot_20210601-182602.jpg.JPG)](https://qpix.com/i/A7fN) | [![A7fH.md.jpg](https://github.com/mizuhokaga/MathExercise-Wechat-Miniprogram/blob/main/Screenshot_20210601-182611.jpg.JPG)](https://qpix.com/i/A7fH) | [![A7fR.md.jpg](https://github.com/mizuhokaga/MathExercise-Wechat-Miniprogram/blob/main/Screenshot_20210601-182652.jpg.JPG)](https://qpix.com/i/A7fR) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 
